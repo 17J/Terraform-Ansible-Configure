@@ -1,0 +1,11 @@
+
+# Placeholder for Nexus installation
+- name: Install Java (dependency for Nexus)
+  apt:
+    name: openjdk-8-jdk
+    state: present
+    update_cache: yes
+
+- name: Download and install Nexus (Example)
+  debug:
+    msg: "Nexus install steps go here"
